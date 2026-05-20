@@ -1,0 +1,16 @@
+.DS_Store
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.venv/
+__pycache__/
+*.egg-info/
+*.pyc
+reports/figures/*.png
+reports/figures/*.pdf
+
+# Original take-home submission artifacts kept locally but not published.
+/Exodus_Research_Test.ipynb
+/Research_Test_.pdf
+/events.csv
+/stock_returns.csv
