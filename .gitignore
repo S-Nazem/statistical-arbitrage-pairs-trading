@@ -1,14 +1,13 @@
-.DS_Store
-.ipynb_checkpoints/
+.venv/
 .pytest_cache/
 .ruff_cache/
-.venv/
 __pycache__/
+*.py[cod]
 *.egg-info/
-*.pyc
+.DS_Store
 
-# Original take-home submission artifacts kept locally but not published.
-/Exodus_Research_Test.ipynb
-/Research_Test_.pdf
-/events.csv
-/stock_returns.csv
+# Root-level originals are preserved locally; canonical project copies live under data/ and notebooks/.
+Exodus_Research_Test.ipynb
+Research_Test_.pdf
+events.csv
+stock_returns.csv
