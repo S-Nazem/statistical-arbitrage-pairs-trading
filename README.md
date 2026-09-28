@@ -12,7 +12,6 @@ The pairs strategy is the main research thread. The event strategy is included a
 ```text
 .
 ├── data/raw/                         # anonymized returns and event inputs
-├── notebooks/exodus_research_test.ipynb
 ├── reports/figures/                  # generated research figures
 ├── src/stat_arb_research/            # reusable research code
 ├── tests/                            # focused unit tests
@@ -97,6 +96,6 @@ This is a research backtest, not a deployable trading system. Important missing 
 - benchmark-relative risk reporting
 - robustness checks across many pairs and event types
 
-## Original Notebook
+## Research Origin
 
-The original exploratory assessment notebook is preserved at `notebooks/exodus_research_test.ipynb`. The package code is intentionally cleaner and more conservative than the raw notebook so the repo can serve as a portfolio-ready research artifact.
+The package was developed from an exploratory assessment notebook. That notebook is not included in this public repository; use `src/stat_arb_research/` and the command-line workflow above to inspect and reproduce the published implementation.
